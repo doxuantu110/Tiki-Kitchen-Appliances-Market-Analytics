@@ -6,8 +6,13 @@
 - **Reviews (before -> after)**: 48649 -> 48649
 - **Columns dropped**: meta_title
 - **possibly_delisted flagged**: 8
-- **discount_rate_mismatch flagged**: 1
+- **discount_rate_mismatch flagged**: 2
 - **Large review_count mismatch (>3x)**: 53
+- **quantity_sold_text/value missingness disagreement**: 4
+- **Reviews with no written content (rating-only)**: 25908 (53.3%)
+- **Rows rescued from all_time_quantity_sold**: 4
+- **discount_rate_mismatch threshold used (pp)**: 1.0
+- **Final columns dropped**: short_description, quantity_sold_text
 
 ## Products Flagged for Manual Review
 
