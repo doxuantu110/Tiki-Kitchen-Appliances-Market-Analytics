@@ -12,7 +12,7 @@ load_dotenv()
 # Configuration
 
 INPUT_FILE = "product_ids.csv"
-OUTPUT_FILE = "crawled_product_data_v2.csv"
+OUTPUT_FILE = "crawled_product_data.csv"
 BASE_URL = "https://tiki.vn/api/v2/products"
 TIKI_ACCESS_TOKEN = os.getenv("TIKI_ACCESS_TOKEN")
 TIKI_TRACKITY_ID = os.getenv("TIKI_TRACKITY_ID")
