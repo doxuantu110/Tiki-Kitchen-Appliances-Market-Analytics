@@ -1,0 +1,23 @@
+# Data Cleaning Report
+
+## Summary
+
+- **Products (before -> after)**: 2001 -> 2001
+- **Reviews (before -> after)**: 48649 -> 48649
+- **Columns dropped**: meta_title
+- **possibly_delisted flagged**: 8
+- **discount_rate_mismatch flagged**: 2
+- **Large review_count mismatch (>3x)**: 53
+- **quantity_sold_text/value missingness disagreement**: 4
+- **Reviews with no written content (rating-only)**: 25908 (53.3%)
+- **Rows rescued from all_time_quantity_sold**: 4
+- **discount_rate_mismatch threshold used (pp)**: 1.0
+- **Final columns dropped**: short_description, quantity_sold_text
+- **subcategory_proxy unclassified rate**: 15.4%
+- **Columns dropped in additional audit (9d)**: list_price, stock_item_qty, stock_item_min_sale_qty, stock_item_max_sale_qty, seller_price, seller_is_best_store
+- **Genuine discount_rate anomalies found (9e)**: 2 (ids 234, 479)
+
+## Products Flagged for Manual Review
+
+- `possibly_delisted = True` IDs: [49601294, 127031344, 147903536, 205818604, 276849824, 277512215, 278096977, 278922364]
+- Large review_count mismatch (>3x) IDs: [392842, 403444, 419160, 452600, 548599, 557855, 558436, 563737, 792752, 1460199, 1462095, 2690569, 3873821, 3946749, 4701559, 6768703, 10005110, 14035887, 17908638, 19578975, 20659766, 22099036, 26031273, 29347959, 32724720, 37535371, 44022555, 48586992, 51200047, 57900412, 59407925, 63561221, 67344085, 70836382, 71145503, 73640087, 74261828, 74792439, 76366605, 80087066, 80128431, 88794151, 93767057, 105742554, 109635280, 112265564, 123545201, 124475724, 150673005, 159885560, 185495917, 205632165, 253426615]
