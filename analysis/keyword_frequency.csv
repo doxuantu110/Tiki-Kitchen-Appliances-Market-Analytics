@@ -1,0 +1,31 @@
+﻿keyword,ngram_type,frequency_negative,frequency_baseline,distinctiveness_score
+yêu cầu đổi,bigram,40,41,5.44
+hoàn,unigram,25,27,5.33
+lần thất vọng,bigram,12,12,5.27
+yêu cầu trả,bigram,12,12,5.27
+gửi bảo hành,bigram,12,12,5.27
+tệ,unigram,95,107,5.25
+hoàn tiền,bigram,17,18,5.11
+trả lại,bigram,52,58,5.03
+đề nghị đổi,bigram,29,32,5.02
+kém chất lượng,bigram,27,30,4.97
+thất vọng cách,bigram,13,14,4.95
+muốn trả,bigram,19,21,4.93
+làm ăn,unigram,45,54,4.88
+hoàn tiền,unigram,22,26,4.86
+cơm sống,bigram,11,12,4.83
+thu hồi,unigram,47,57,4.83
+bực mình,unigram,16,19,4.77
+hoàn trả,unigram,11,13,4.69
+email,unigram,14,17,4.64
+giải quyết,unigram,76,97,4.63
+ko quay,bigram,15,18,4.51
+ko hoạt động,bigram,11,13,4.49
+trả,unigram,274,366,4.45
+tháng hỏng,bigram,17,21,4.41
+đồng ý,unigram,14,18,4.4
+phản ánh,unigram,14,18,4.4
+trả bảo hành,bigram,10,12,4.39
+tiki đổi lại,bigram,10,12,4.39
+thấy phản hồi,bigram,10,12,4.39
+trưng bày,unigram,11,14,4.37
