@@ -48,7 +48,7 @@ def parser_product(product):
         # ---- Pricing ----
         "price": product.get("price"),
         "list_price": product.get("list_price"),
-        "original_price": product.get("original_price"),  # fallback đáng tin hơn list_price
+        "original_price": product.get("original_price"),
         "discount": product.get("discount"),
         "discount_rate": product.get("discount_rate"),
 
