@@ -11,8 +11,7 @@ End-to-end data analytics project: from crawling Tiki web data, data cleaning, b
 The Kitchen Appliances category on Tiki contains thousands of SKUs across many brands, with widely varying prices and discount levels. The Category Manager needs to answer: which price segments sell best, which brands/sellers lead the market, whether promotions are actually effective, which subcategories have assortment gaps, which products should be prioritized for marketing, and what customers are complaining about behind low ratings.
 
 Full details: [`docs/business_requirements_eng.md`](docs/business_requirements_eng.md)
-[`docs/business_question_eng.md`](docs/business_question_eng.md),
-s
+[`docs/business_question_eng.md`](docs/business_question_eng.md)
 
 ## Business Questions
 
@@ -137,6 +136,8 @@ cp .env.example .env   # fill in TIKI_ACCESS_TOKEN, TIKI_GUEST_TOKEN, TIKI_TRACK
 |---|---|
 | [`docs/business_requirements.md`](docs/business_requirements_eng.md) | Scope, stakeholder, success criteria |
 | [`docs/business_question.md`](docs/business_question_eng.md) | Business problem + 6 question groups |
-| [`docs/pdf/data_cleaning`](docs/pdf/data_cleaning.pdf) | Detailed data cleaning process |
+| [`docs/pdf/data_collection_report.pdf`](docs/pdf/data_collection_report.pdf) | Detailed data collection process |
+| [`docs/pdf/data_quality_report.pdf`](docs/pdf/data_quality_report.pdf) | Detailed data quality checking process |
+| [`docs/pdf/data_cleaning.pdf`](docs/pdf/data_cleaning.pdf) | Detailed data cleaning process |
 | [`dashboard/dashboard_design.md`](dashboard/dashboard_design.md) | Design of each dashboard page |
 | [`insights/Insights_Recommendations_v1.pdf`](insights/Insights_Recommendations_v1.pdf) | Final insights & recommendations |

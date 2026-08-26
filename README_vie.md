@@ -159,6 +159,8 @@ cp .env.example .env   # điền TIKI_ACCESS_TOKEN, TIKI_GUEST_TOKEN, TIKI_TRACK
 |---|---|
 | [`docs/business_requirements.md`](docs/business_requirements_eng.md) | Scope, stakeholder, success criteria |
 | [`docs/business_question.md`](docs/business_question_eng.md) | Business problem + 6 nhóm câu hỏi |
+| [`docs/pdf/data_collection_report.pdf`](docs/pdf/data_collection_report.pdf) | quy trình thu thập dữ liệu |
+| [`docs/pdf/data_quality_report.pdf`](docs/pdf/data_quality_report.pdf) | Quy trình kiểm tra dữ liệu chi tiết |
 | [`docs/pdf/data_cleaning`](docs/pdf/data_cleaning.pdf) | Quy trình làm sạch dữ liệu chi tiết |
 | [`dashboard/dashboard_design.md`](dashboard/dashboard_design.md) | Thiết kế từng trang dashboard |
 | [`insights/Insights_Recommendations_v1.pdf`](insights/Insights_Recommendations_v1.pdf) | Insight & khuyến nghị cuối cùng |
